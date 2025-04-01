@@ -1,0 +1,96 @@
+[24-Apr-2024 01:38:10 UTC] PHP Warning:  require_once(/home/gisrsi/public_html/centroafricano/admin/inc/config-local.php): Failed to open stream: No such file or directory in /home/gisrsi/public_html/centroafricano3/admin/inc/config.php on line 4
+[24-Apr-2024 01:38:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gisrsi/public_html/centroafricano/admin/inc/config-local.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/gisrsi/public_html/centroafricano3/admin/inc/config.php:4
+Stack trace:
+#0 /home/gisrsi/public_html/centroafricano3/admin/index.php(2): require_once()
+#1 {main}
+  thrown in /home/gisrsi/public_html/centroafricano3/admin/inc/config.php on line 4
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant DIAFIM already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 20
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant ANO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 28
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant SERVIDOR already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 35
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant USUARIO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 42
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant SENHA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 49
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant BANCO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 56
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant TIPO_BANCO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 63
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant TITULO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 71
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant MSG_ACESSO_NEGADO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 107
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant MSG_ACESSO_NEGADO_BD already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 114
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant MSG_ERRO_GRAVAR_BD already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 121
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant MSG_CONSULTA_VAZIA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 128
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant MSG_USUARIO_SENHA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 135
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant MSG_SUCESSO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 142
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant MSG_ERRO_EMAIL already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 149
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant MSG_ATUALIZACAO_SUCESSO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 156
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant MSG_CPF_INVALIDO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 163
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant MSG_LOGOFF_SUCESSO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 170
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant EMAIL already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 177
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant ASSUNTO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 185
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant NOME_EMAIL already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 192
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant DOMINIO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 199
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant PATH already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 206
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant ARQUIVO_LOGS already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 213
+[29-Apr-2024 20:26:26 UTC] PHP Warning:  Constant IDIOMA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 229
+[29-Apr-2024 20:26:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_stmt_init(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/gisrsi/public_html/centroafricano3/admin/index.php:11
+Stack trace:
+#0 /home/gisrsi/public_html/centroafricano3/admin/index.php(11): mysqli_stmt_init(false)
+#1 {main}
+  thrown in /home/gisrsi/public_html/centroafricano3/admin/index.php on line 11
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant DIAFIM already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 20
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant ANO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 28
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant SERVIDOR already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 35
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant USUARIO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 42
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant SENHA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 49
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant BANCO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 56
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant TIPO_BANCO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 63
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant TITULO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 71
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant MSG_ACESSO_NEGADO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 107
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant MSG_ACESSO_NEGADO_BD already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 114
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant MSG_ERRO_GRAVAR_BD already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 121
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant MSG_CONSULTA_VAZIA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 128
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant MSG_USUARIO_SENHA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 135
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant MSG_SUCESSO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 142
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant MSG_ERRO_EMAIL already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 149
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant MSG_ATUALIZACAO_SUCESSO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 156
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant MSG_CPF_INVALIDO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 163
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant MSG_LOGOFF_SUCESSO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 170
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant EMAIL already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 177
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant ASSUNTO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 185
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant NOME_EMAIL already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 192
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant DOMINIO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 199
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant PATH already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 206
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant ARQUIVO_LOGS already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 213
+[29-Apr-2024 20:26:32 UTC] PHP Warning:  Constant IDIOMA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 229
+[29-Apr-2024 20:26:32 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_stmt_init(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/gisrsi/public_html/centroafricano3/admin/index.php:11
+Stack trace:
+#0 /home/gisrsi/public_html/centroafricano3/admin/index.php(11): mysqli_stmt_init(false)
+#1 {main}
+  thrown in /home/gisrsi/public_html/centroafricano3/admin/index.php on line 11
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant DIAFIM already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 20
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant ANO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 28
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant SERVIDOR already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 35
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant USUARIO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 42
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant SENHA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 49
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant BANCO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 56
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant TIPO_BANCO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 63
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant TITULO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 71
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant MSG_ACESSO_NEGADO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 107
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant MSG_ACESSO_NEGADO_BD already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 114
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant MSG_ERRO_GRAVAR_BD already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 121
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant MSG_CONSULTA_VAZIA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 128
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant MSG_USUARIO_SENHA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 135
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant MSG_SUCESSO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 142
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant MSG_ERRO_EMAIL already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 149
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant MSG_ATUALIZACAO_SUCESSO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 156
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant MSG_CPF_INVALIDO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 163
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant MSG_LOGOFF_SUCESSO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 170
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant EMAIL already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 177
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant ASSUNTO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 185
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant NOME_EMAIL already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 192
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant DOMINIO already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 199
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant PATH already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 206
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant ARQUIVO_LOGS already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 213
+[18-Nov-2024 02:22:36 UTC] PHP Warning:  Constant IDIOMA already defined in /home/gisrsi/public_html/centroafricano/admin/inc/config-producao.php on line 229
+[18-Nov-2024 02:22:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_stmt_init(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/gisrsi/public_html/centroafricano3/admin/index.php:11
+Stack trace:
+#0 /home/gisrsi/public_html/centroafricano3/admin/index.php(11): mysqli_stmt_init(false)
+#1 {main}
+  thrown in /home/gisrsi/public_html/centroafricano3/admin/index.php on line 11
