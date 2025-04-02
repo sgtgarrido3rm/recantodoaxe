@@ -7,6 +7,9 @@ Agradeço a todos os envolvidos, tanto na parte acadêmica quanto aos meus amigo
 # Desenvolvedor
 
 Nome: Luís Olavo Rosa Garrido
+
 Curso: Superior em Inteligência Artificial
+
 Disciplina: Atividades de Extensão: Integração de Competências Para Transformar o Eu
+
 Semestre: 2025/1
