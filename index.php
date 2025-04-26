@@ -158,7 +158,8 @@ $conn = mysqli_connect($hostdobancodedados,$logindobancodedados,$senhadobancoded
 <div class="container">
 	<div class="row">
 		<div class="col-md-5 col-lg-6">
-			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/71c21FLvpdm4YfiKRA4Xcu?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+			<!-- em 02abr25: alterada a lista do spotify para uma adequada ao contexto das matas -->
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6b6yXeCf34MjAq1IRalJIe?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 		</div>
 
 		<!--div class='col-md-7 col-lg-6'>

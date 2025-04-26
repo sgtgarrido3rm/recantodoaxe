@@ -4,7 +4,7 @@
 	* 
 	* Biblioteca de funcoes uteis.
 	* 
-	* @author Olavo Garrido (olavoeamanda@gmail.com)
+	* @author Luis Olavo Garrido (sgtgarrido3rm@gmail.com)
 	* @version 0.0.2
 	*/
 
